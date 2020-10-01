@@ -26,10 +26,10 @@
       </div>
 
 <input class="sheet-roleselect" type="hidden" name='attr_role'/>
-<div class="sheet-divd4"><img src="https://dl.dropboxusercontent.com/s/xp8c2op8zueas2g/roled4.png?dl=0"></img></div>
-<div class="sheet-divd6"><img src="https://dl.dropboxusercontent.com/s/h3glc90x5vc0p6s/roled6.png?dl=0"></img></div>
-<div class="sheet-divd8"><img src="https://dl.dropboxusercontent.com/s/lss7w8xw0v47yn2/roled8.png?dl=0"></img></div>
-<div class="sheet-divd10"><img src="https://dl.dropboxusercontent.com/s/tjw2dytinx0k2oh/roled10.png?dl=0"></img></div>
+<div class="sheet-divd4"><img src="https://raw.githubusercontent.com/9thLevel/roll20/main/d4p.png"></img></div>
+<div class="sheet-divd6"><img src="https://raw.githubusercontent.com/9thLevel/roll20/main/d6v.png"></img></div>
+<div class="sheet-divd8"><img src="https://raw.githubusercontent.com/9thLevel/roll20/main/d8f.png"></img></div>
+<div class="sheet-divd10"><img src="https://raw.githubusercontent.com/9thLevel/roll20/main/d10s.png"></img></div>
 
 
       <div class="divTableRow">
