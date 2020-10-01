@@ -9,7 +9,8 @@ button[type=roll].sheet-starr::before {
 
 .charsheet {
 	background-color: #CCCC99;
-	background-image: url('https://dl.dropboxusercontent.com/s/3bx9xbjd3o4eq1u/scroll.png?dl=0');
+	background-image: url('https://raw.githubusercontent.com/9thLevel/roll20/main/MazesScroll.png');
+	/* background-image: url('https://dl.dropboxusercontent.com/s/3bx9xbjd3o4eq1u/scroll.png?dl=0'); */
 	width: 642px;
 	height: 950px;
 }
@@ -100,31 +101,12 @@ button[type=roll].sheet-starr::before {
 
 /* Dice Imager*/
 
-.sheet-divd4 {
+.sheet-divd4, .sheet-divd6, .sheet-divd8, .sheet-divd10 {
     position: absolute;
     top: 250px;
-    left: 30px;
-    display: none;
-}
-        
-.sheet-divd6 {
-    position: absolute;
-    top: 250px;
-    left: 30px;
-    display: none;
-}
-
-.sheet-divd8 {
-    position: absolute;
-    top: 250px;
-    left: 30px;
-    display: none;
-}
-
-.sheet-divd10 {
-    position: absolute;
-    top: 250px;
-    left: 30px;
+    left: 400px;
+    width: 250px;
+    height: 111px;
     display: none;
 }
 
