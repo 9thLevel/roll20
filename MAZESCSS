@@ -1,16 +1,18 @@
-/* 9th Level Games all rights reserved.  This is for use in MAZES RPG play on Roll20 */
-
+/* This is CSS for the Roll20 Character Sheet for the MAZES RPG 9th Level Games all rights reserved. */
+/* Set Custom Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Ruslan+Display|Grenze+Gotisch|Trade+Winds|Open+Sans&display=swap');
 
+/* Set Buttons to CUBES*/
 button[type=roll].sheet-starr::before {
 	font-family: 'pictos';
-	content: 'S';
+	content: 'b';
 }
 
+
+/* Setup the Formating for the Sheet*/
 .charsheet {
 	background-color: #CCCC99;
 	background-image: url('https://raw.githubusercontent.com/9thLevel/roll20/main/MazesScroll.png');
-	/* background-image: url('https://dl.dropboxusercontent.com/s/3bx9xbjd3o4eq1u/scroll.png?dl=0'); */
 	width: 642px;
 	height: 950px;
 }
@@ -68,7 +70,7 @@ button[type=roll].sheet-starr::before {
 .charsheet textarea {
     font-family: 'Trade Winds';
     resize: none;
-    margin: -0;
+    margin: 0;
     width: 85%;
     background-color: rgba(255, 255, 255, .7);
     border: none;
@@ -76,10 +78,7 @@ button[type=roll].sheet-starr::before {
 
 }
 
-
-
-
-/* Div Table for controls*/
+/* Setup Table Controls for Roll20 DIVS*/
 
 .sheet-divTable {
     display: table;
@@ -96,14 +95,11 @@ button[type=roll].sheet-starr::before {
     padding: 1px;
 }
 
-
-
-
-/* Dice Imager*/
+/* Create and Display the ROLE ROLL Images based on selection*/
 
 .sheet-divd4, .sheet-divd6, .sheet-divd8, .sheet-divd10 {
     position: absolute;
-    top: 250px;
+    top: 280px;
     left: 400px;
     width: 250px;
     height: 111px;
