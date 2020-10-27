@@ -12,7 +12,7 @@ button[type=roll].sheet-starr::before {
 /* Setup the Formating for the Sheet*/
 .charsheet {
 	background-color: #CCCC99;
-	background-image: url('https://raw.githubusercontent.com/9thLevel/roll20/main/MazesScroll.png');
+	background-image: url('https://raw.githubusercontent.com/9thLevel/roll20/main/MazesScroll3.png');
 	width: 642px;
 	height: 950px;
 }
