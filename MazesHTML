@@ -5,18 +5,6 @@
             <div class="divTableCell"> <h1>MAZES</h1> </div>
                 </div>
 
-    <div class="divTable" align="center" style="width:90%;">
-        <div class="divTableRow" align="center">
-            <div class="divTableCell"> <label style="font-size: 2.5em;"> Roll </label> </div>
-            <div class="divTableCell"><button type="roll" value="/roll @{role}" name="roll_Core" class="starr"></button></div>
-            <div class="divTableCell"> <label style="font-size: 2.5em;"> Vantage </label> </div>
-            <div class="divTableCell"><button type="roll" value="/roll 2@{role}" name="roll_Vantage" class="starr"></button></div>
-            <div class="divTableCell"> <label style="font-size: 2.5em;"> Effect </label> </div>
-            <div class="divTableCell"><button type="roll" value="/roll @{role}!!" name="roll_Effect" class="starr"></button></div>
-        </div>
-        </div>
-        </div>
-
    <h3> Mazes Character Record </h3>
 
    <div class="divTable">
@@ -169,9 +157,14 @@
 
 <h3>Actions and Saves</h3>
 
-<div class="divTable" align="center">
-<div class="divTableRow" align="center">
-<div class="divTableCell" align="center">
-</div>
-</div>
-</div>
+<div class="divTable" align="center" style="width:90%;">
+        <div class="divTableRow" align="center">
+            <div class="divTableCell"> <label style="font-size: 2.5em;"> Roll </label> </div>
+            <div class="divTableCell"><button type="roll" value="/roll @{role}" name="roll_Core" class="starr"></button></div>
+            <div class="divTableCell"> <label style="font-size: 2.5em;"> Vantage </label> </div>
+            <div class="divTableCell"><button type="roll" value="/roll 2@{role}" name="roll_Vantage" class="starr"></button></div>
+            <div class="divTableCell"> <label style="font-size: 2.5em;"> Effect </label> </div>
+            <div class="divTableCell"><button type="roll" value="/roll @{role}!!" name="roll_Effect" class="starr"></button></div>
+        </div>
+        </div>
+        </div>
