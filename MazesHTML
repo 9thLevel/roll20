@@ -167,12 +167,11 @@
 </div>
 </div>
 
-<h3>Character Diary</h3>
+<h3>Actions and Saves</h3>
 
 <div class="divTable" align="center">
 <div class="divTableRow" align="center">
 <div class="divTableCell" align="center">
-<textarea class="attr_diary"></textarea>
 </div>
 </div>
 </div>
