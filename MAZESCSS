@@ -1,15 +1,16 @@
 /* This is CSS for the Roll20 Character Sheet for the MAZES RPG 9th Level Games all rights reserved. */
+
 /* Set Custom Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Ruslan+Display|Grenze+Gotisch|Trade+Winds|Open+Sans&display=swap');
 
-/* Set Buttons to CUBES*/
+/* Set Buttons to Action and Save rolls*/
 button[type=roll].sheet-starr::before {
 	font-family: 'pictos';
 	content: 'b';
 }
 
 
-/* Setup the Formating for the Sheet*/
+/* Setup Core Formatting*/
 .charsheet {
 	background-color: #CCCC99;
 	background-image: url('https://raw.githubusercontent.com/9thLevel/roll20/main/MazesScroll3.png');
@@ -66,7 +67,6 @@ button[type=roll].sheet-starr::before {
 
 }
 
-
 .charsheet textarea {
     font-family: 'Trade Winds';
     resize: none;
@@ -75,10 +75,9 @@ button[type=roll].sheet-starr::before {
     background-color: rgba(255, 255, 255, .7);
     border: none;
     margin-bottom: 10px;
-
 }
 
-/* Setup Table Controls for Roll20 DIVS*/
+/* Setup functions for Roll20 div tables*/
 
 .sheet-divTable {
     display: table;
@@ -95,16 +94,16 @@ button[type=roll].sheet-starr::before {
     padding: 1px;
 }
 
-/* Create and Display the ROLE ROLL Images based on selection*/
+/* Create and Display the ROLE/ROLL Images based on selection*/
 
 .sheet-divd4, .sheet-divd6, .sheet-divd8, .sheet-divd10 {
     position: absolute;
-    top: 280px;
+    top: 250px;
     left: 400px;
     width: 250px;
     height: 111px;
+    opacity: 0.8;
     display: none;
-    opacity: 0.9;    
 }
 
 input[value="d4"].sheet-roleselect ~ div.sheet-divd4,
@@ -115,5 +114,23 @@ input[value="d10"].sheet-roleselect ~ div.sheet-divd10
     display: inline;
 }
 
+/* Hide the Class Selection and Open Options based on ASPECT Select*/
+
+.sheet-class, .sheet-sword, .sheet-skill, .sheet-sorcery, .sheet-seafaring, .sheet-sylvan, .sheet-scholarship, .sheet-shadows, .sheet-station
+{
+    display: none;
+}
+
+input[value*="sword"].sheet-aspect ~ select.sheet-sword,
+input[value*="skill"].sheet-aspect ~ select.sheet-skill,
+input[value*="sorcery"].sheet-aspect ~ select.sheet-sorcery,
+input[value*="seafaring"].sheet-aspect ~ select.sheet-seafaring,
+input[value*="sylvan"].sheet-aspect ~ select.sheet-sylvan,
+input[value*="scholarship"].sheet-aspect ~ select.sheet-scholarship,
+input[value*="shadows"].sheet-aspect ~ select.sheet-shadows,
+input[value*="station"].sheet-aspect ~ select.sheet-station
+{
+    display: block;
+}
 
 }
